@@ -5,24 +5,24 @@
 // --- Hardware Configuration ---
 // TB6612FNG Pins
 #define AIN1 4
-#define BIN1 6
+#define BIN1 7
 #define AIN2 3
-#define BIN2 7
+#define BIN2 6
 #define PWMA 9
 #define PWMB 10
 #define STBY 5
 
 // Sensor Pins (Digital)
 // Using Analog pins A0-A4 as Digital Inputs
-#define SENSOR1 A0
-#define SENSOR2 A1
-#define SENSOR3 A2
-#define SENSOR4 A3
-#define SENSOR5 A4
+#define SENSOR1 A1
+#define SENSOR2 A2
+#define SENSOR3 A3
+#define SENSOR4 A4
+#define SENSOR5 A5
 
 // Buttons & LED
-#define BTN_CALIB 2  // Connect to Digital 2
-#define BTN_START 8  // Connect to Digital 8
+#define BTN_CALIB 12  // Connect to Digital 2
+#define BTN_START 11  // Connect to Digital 8
 #define LED_PIN 13   // Built-in LED
 
 // Objects
